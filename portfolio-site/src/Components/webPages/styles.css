@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background-color: lightblue;
+    color: black;
+  }
+
+.links {
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.card-styles {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.side-bar {
+    height: 100%;
+}
