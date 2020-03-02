@@ -3,7 +3,6 @@ import Nav from "./Components/Nav"
 import PagesRoutes from "./Components/PagesRoutes"
 import { 
   Layout, 
-  Header, 
   Navigation, 
   Content, 
   Drawer } from 'react-mdl'
@@ -11,20 +10,16 @@ import "./App.css"
 
 //import { Header, Footer } from 'react-mdl'
 
-
 class App extends Component {
   render() {
     return (
       <div className="main">
-        <Layout>
-          <Header title="Hi I'm Gerald" className="header">
-            <Drawer>
-              <Navigation >
+        <Layout className="main" style={{background: 'url(https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png) center / cover'}}>
+
+          <Drawer title="Let Me Introduce Myself" className="drawer">
+            <Navigation >
                 <Nav />
-              </Navigation>
-            </Drawer>
-          </Header>
-          <Drawer title="Let Me Introduce Myself">
+            </Navigation>
           </Drawer>
 
           <Content>

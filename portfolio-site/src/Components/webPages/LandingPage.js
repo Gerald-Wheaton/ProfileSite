@@ -3,8 +3,8 @@ import "./styles.css"
 
 function LandingPage() {
     return (
-        <div>
-            <h1>Home Page</h1>
+        <div className="landing-page">
+            <h1 className="landing-card">Home Page</h1>
         </div>
     )
 }

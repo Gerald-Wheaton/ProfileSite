@@ -9,7 +9,7 @@ import { Switch, Route } from "react-router-dom"
 function PagesRoutes() {
     return(
         <Switch>
-            <Route path="/landing" componenet={LandingPage} />
+            <Route path="/landing" component={LandingPage} />
 
             <Route path="/about" component={AboutMe} />
 
